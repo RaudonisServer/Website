@@ -12,7 +12,7 @@ body {
     position: relative;
     font-family: monospace;
     color: rgb(255, 255, 255);
-    font-size: 4em;
+    font-size: 2em;
     filter: contrast(15);
 }
 
