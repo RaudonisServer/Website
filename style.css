@@ -64,5 +64,6 @@ body {
 .status {
     height: 130px;
     width: 440px;
+    border: none;
 }
 
