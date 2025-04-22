@@ -62,7 +62,7 @@ body {
     }
 }
 
-iframe.status {
+iframe {
     height: 260px;
     width: 880px;
     border: none;
