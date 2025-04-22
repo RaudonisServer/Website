@@ -61,9 +61,10 @@ body {
         opacity: 0;
     }
 }
-.status {
-    height: 130px;
-    width: 440px;
+
+iframe.status {
+    height: 260px;
+    width: 880px;
     border: none;
 }
 
