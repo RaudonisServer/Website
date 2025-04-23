@@ -7,11 +7,11 @@ center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
 }
 body {
     background: #151515;
-    height: 100vh;
+    height: 110vh;
     display: grid;
     place-items: center;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .word:nth-child(1) {
-    animation-delay: -7s;
+    animation-delay: -5s;
 }
 
 .word:nth-child(2) {
@@ -51,8 +51,8 @@ body {
     0%,
     5%,
     100% {
-        filter: blur(0px);
-        opacity: 1;
+        filter: blur(10px);
+        opacity: 1.2;
     }
 
     50%,
