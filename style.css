@@ -42,4 +42,7 @@ h1 {
 }
 .centertext {
   text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
