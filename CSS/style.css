@@ -40,5 +40,6 @@ h1 {
   height: 50vh;
   background-color: #000;
 }
-
+.centertext {
+  text-align: center;
 
