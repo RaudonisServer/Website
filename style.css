@@ -36,6 +36,7 @@ h1 {
   opacity: 0;
   transition: all 0.5s ease-in-out;
   font-size: 30px;
+  text-align: center;
 }
 
 .revealUp.visible {
@@ -73,6 +74,7 @@ html, body, .main{
   background-repeat: no-repeat;
 }
 
+
 .revealUp-iframe.visible {
   transform: scale(1.5);
 }
@@ -109,4 +111,12 @@ html, body, .main{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+ol li{
+  font-size: 30px;
+}
+
+ol {
+  margin-left: 20px;
+  margin-right: 20px;
 }
