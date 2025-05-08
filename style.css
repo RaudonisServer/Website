@@ -67,3 +67,39 @@ html, body, .main{
   overflow-x: hidden;
   margin: 0;
 }
+.jarallax-img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.revealUp-iframe.visible {
+  transform: scale(1.5);
+}
+
+.jarallax{
+  height: 100vh;
+}
+
+.footer{
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.github svg{
+  background-color: #333;
+  fill: #fff;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.github svg:hover{
+  fill: #333;
+  background-color: white;
+}
