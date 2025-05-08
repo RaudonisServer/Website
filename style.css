@@ -103,3 +103,10 @@ html, body, .main{
   fill: #333;
   background-color: white;
 }
+
+.rules, .banned-client-mods{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
