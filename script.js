@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollTrigger);
+/*gsap.registerPlugin(ScrollTrigger);
 // REVEAL //
 gsap.utils.toArray(".revealUp").forEach(function (elem) {
   ScrollTrigger.create({
@@ -39,4 +39,17 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
       gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
     }
   });
+});*/
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target); 
+    }
+  });
+});
+
+document.querySelectorAll(".revealUp").forEach((el)=>{
+  observer.observe(el);  
+  
 });

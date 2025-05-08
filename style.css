@@ -34,8 +34,15 @@ h1 {
 }
 .revealUp {
   opacity: 0;
-  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+  font-size: 30px;
 }
+
+.revealUp.visible {
+  opacity: 1;
+  font-size: 100px;
+}
+
 .spacer {
   height: 50vh;
   background-color: #000;
@@ -45,4 +52,18 @@ h1 {
   align-items: center;
   align-self: center;
   align-content: center;
+}
+
+.revealUp-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+html, body, .main{
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
 }
