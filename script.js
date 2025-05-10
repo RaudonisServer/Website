@@ -1,3 +1,4 @@
+onload=()=>+new URLSearchParams(location.search).get("l")==1&&(location.href="https://youtu.be/dQw4w9WgXcQ")
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
