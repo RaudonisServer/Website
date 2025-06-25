@@ -123,5 +123,11 @@ ol {
 }
 .centertext{
   text-align: center;
+  align-items: center;
+  align-content: center;
+  -moz-box-align: center;
+  box-shadow: #333;
+  text-shadow: #333;
+  
 }
   
