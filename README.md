@@ -1,11 +1,5 @@
 # RaudonisNetwork Website
 
-Website of minecraft.raudonis.de
--Developed by TheAnonym, R40fendt and CPPIMFPL-
-
-Styles: style.css
-Index: index.html
-
-developed in 2025
-
-This code is used to be on the RaudonisNetwork server, NOT anywhere !
+minecraft.raudonis.de
+Developed by TheAnonym3000, R40fendt, and Fw200C1.
+Made in 2025.
