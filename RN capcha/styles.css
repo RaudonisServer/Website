@@ -1,0 +1,95 @@
+/* Allgemein */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  color: #00faff;
+  background-color: #0c0c0c;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Futuristischer Button */
+.futuristic-button {
+  background: linear-gradient(45deg, #00faff, #005eff);
+  border: none;
+  padding: 1em 2em;
+  font-size: 1.2em;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00faff;
+  transition: all 0.3s ease-in-out;
+}
+
+.futuristic-button:hover {
+  box-shadow: 0 0 40px #00faff;
+  transform: scale(1.1);
+}
+
+/* Animation */
+.animation-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader {
+  text-align: center;
+}
+
+.loader .ring {
+  width: 100px;
+  height: 100px;
+  border: 8px solid #00faff;
+  border-top: 8px solid transparent;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  margin: 0 auto 20px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* CAPTCHA */
+.captcha-box {
+  background: rgba(0, 255, 255, 0.1);
+  padding: 2em;
+  border: 2px solid #00faff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00faff;
+}
+
+.captcha-box label {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 1em 0;
+}
+
+.captcha-box button {
+  background-color: #00faff;
+  border: none;
+  padding: 0.5em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+  color: black;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.captcha-box button:hover {
+  background-color: #00b3b3;
+}
+
+/* Schrift */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
